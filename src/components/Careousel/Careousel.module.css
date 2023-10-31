@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 25px;
+}
+.cards {
+  gap: 20px;
+  display: flex;
+  height: 200px;
+  border-radius: 50px;
+}
+.cards img {
+  width: 300px;
+}

@@ -1,0 +1,46 @@
+.searchBar {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: rgb(82, 78, 78);
+  padding: 20px;
+}
+.searchBar input{
+  padding: 20px;
+  border: none;
+  width: 80%;
+  margin-left: 35px;
+}
+.searchIcon{
+  margin-left: 10px;
+  top: 9%;
+  position: absolute;
+}
+.filter{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.content{
+    margin-top: 50px;
+}
+.btn{
+  color: red;
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.btn:hover{
+  color: orange;
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width:480px) {
+  
+}
