@@ -18,10 +18,6 @@ const App = (user) => {
     });
   }, []);
 
-  if(!user){
-    window.location.replace('/login')
-  }
-
   return (
     <div className="App">
       <Router>
